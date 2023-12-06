@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Outfit', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to left, #fb969a, #cebef6, #f7d7e5);
+}
+
+h1 {
+  color: white;
+  padding: 18px 0;
+  text-align: center;
+  font-size: 1.75rem;
+  background: #b69df8;
+}
+
+.container {
+  display: flex;
+  gap: 35px;
+  padding: 30px;
+}
+
+.weatherInput input {
+  width: 100%;
+  height: 46px;
+  outline: none;
+  padding: 0 15px;
+  margin: 10px 0 20px 0;
+  font-size: 1.07rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.weatherInput button {
+  width: 100%;
+  padding: 10px 0;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  border-radius: 5px;
+  background: #674ea3;
+}
+
+.weatherInput {
+  width: 550px;
+}
+
+.weatherData {
+  width: 100%;
+}
+
+.locationInput .locationBtn {
+  background: #e8def8;
+}
+.weatherInput .separator {
+  height: 1px;
+  width: 100%;
+  background: #bbb;
+  margin: 25px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.weatherInput .separator::before {
+  color: #6c757d;
+  font-size: 1.18rem;
+  padding: 0 15px;
+  background: #e8def8;
+  margin-top: -4px;
+}
+
+.currentWeather {
+  background: #674ea3;
+  color: #fff;
+  padding: 20px 70px 20px 20px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.currentWeather h2 {
+  font-size: 1.7rem;
+}
+
+.weatherData h4 {
+  margin-top: 12px;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.currentWeather .icon img {
+  max-width: 120px;
+  margin-top: -15px;
+}
+
+.currentWeather .icon .h4 {
+  margin-top: -10px;
+  text-transform: capitalize;
+}
+
+.daysForecast h2{
+font-size: 1.5rem;
+margin: 20px 0;
+}
+
+.weatherCards{
+    display: flex;
+    gap: 20px;
+}
+
+.weatherCards .card{
+    background: #e8def8;
+    list-style: none;
+    color: black;
+    padding: 18px 16px;
+    border-radius: 5px;
+    width: calc(100% / 5);
+}
+
+.weatherCards .card img{
+    max-width: 70px;
+    margin: 5px 0 -12px 0;
+}
+
+
